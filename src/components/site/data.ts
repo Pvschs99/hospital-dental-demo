@@ -84,6 +84,15 @@ export const REVIEWS = [
   },
 ] as const;
 
+export const CLINIC = {
+  name: "Lumière Dental Care",
+  // E.164 format used for tel: and wa.me links
+  phoneE164: "+15551234567",
+  phoneDisplay: "(555) 123-4567",
+  whatsappMessage:
+    "Hi Lumière Dental Care, I'd like to book an appointment.",
+} as const;
+
 export const DOCTOR = {
   name: "Dr. Ethan Carter",
   qualification: "DDS, MSc Prosthodontics",
