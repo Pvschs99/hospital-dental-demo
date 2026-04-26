@@ -9,9 +9,9 @@ import { SERVICES, REVIEWS, DOCTOR } from "@/components/site/data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Lumière Dental Care — Your Smile, Our Priority" },
+      { title: " Incisors Dental Care — Your Smile, Our Priority" },
       { name: "description", content: "Advanced dental care with experienced professionals. Book a comfortable, premium dental experience today." },
-      { property: "og:title", content: "Lumière Dental Care — Your Smile, Our Priority" },
+      { property: "og:title", content: " Incisors Dental Care — Your Smile, Our Priority" },
       { property: "og:description", content: "Advanced dental care with experienced professionals." },
     ],
   }),
