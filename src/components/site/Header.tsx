@@ -38,7 +38,7 @@ export function Header() {
             <ToothMark />
           </span>
           <span className="flex flex-col leading-tight">
-            <span className="font-display text-lg font-semibold text-deep">Lumière</span>
+            <span className="font-display text-lg font-semibold text-deep">Incisors</span>
             <span className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
               Dental Care
             </span>
@@ -61,11 +61,11 @@ export function Header() {
 
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="tel:+15551234567"
+            href="tel:+91xxxxxxxxxxx"
             className="flex items-center gap-2 text-sm font-medium text-deep hover:text-accent transition-smooth"
           >
             <Phone className="h-4 w-4" />
-            (555) 123-4567
+            +91xxxxxxxxxxx
           </a>
           <Link
             to="/appointment"
