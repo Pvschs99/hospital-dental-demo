@@ -1,7 +1,4 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
-import { Header } from "@/components/site/Header";
-import { Footer } from "@/components/site/Footer";
-import { FloatingActions } from "@/components/site/FloatingActions";
 
 import appCss from "../styles.css?url";
 
@@ -74,14 +71,7 @@ function RootShell({ children }: { children: React.ReactNode }) {
 }
 
 function RootComponent() {
-  return (
-    <div className="min-h-screen flex flex-col bg-background">
-      <Header />
-      <main className="flex-1 pt-20">
-        <Outlet />
-      </main>
-      <Footer />
-      <FloatingActions />
-    </div>
-  );
+  // Static HTML/CSS site is served from /public — each route renders an iframe
+  // pointing to the matching .html file. No React chrome around it.
+  return <Outlet />;
 }
