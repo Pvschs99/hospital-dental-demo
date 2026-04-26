@@ -6,9 +6,9 @@ import { SERVICES } from "@/components/site/data";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Lumière Dental Care" },
+      { title: "Services —  Incisors Dental Care" },
       { name: "description", content: "Cleanings, root canals, dental implants, braces, aligners and cosmetic dentistry — gentle, modern care for every smile." },
-      { property: "og:title", content: "Dental Services — Lumière Dental Care" },
+      { property: "og:title", content: "Dental Services —  Incisors Dental Care" },
       { property: "og:description", content: "Comprehensive dental care from preventive to cosmetic." },
     ],
   }),
