@@ -66,22 +66,22 @@ export function Footer() {
           <ul className="space-y-3 text-sm text-deep-foreground/70">
             <li className="flex items-start gap-3">
               <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
-              <span>120 Elm Avenue, Suite 4<br />San Francisco, CA 94110</span>
+              <span>Abc Street, Suite 4<br />India</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="h-4 w-4 shrink-0 text-accent" />
-              <a href="tel:+15551234567">(555) 123-4567</a>
+              <a href="tel:+15551234567">+91 xxxxxxxxx</a>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="h-4 w-4 shrink-0 text-accent" />
-              <a href="mailto:hello@lumiere-dental.com">hello@lumiere-dental.com</a>
+              <a href="mailto:hello@lumiere-dental.com">hello@incisors-dental.com</a>
             </li>
           </ul>
         </div>
       </div>
       <div className="border-t border-deep-foreground/10">
         <div className="container-x py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-deep-foreground/50">
-          <span>© {new Date().getFullYear()} Lumière Dental Care. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Incisors Dental Care. All rights reserved.</span>
           <span>Crafted with care for healthier smiles.</span>
         </div>
       </div>
