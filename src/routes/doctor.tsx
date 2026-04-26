@@ -7,9 +7,9 @@ import { Award, GraduationCap, Stethoscope, Calendar } from "lucide-react";
 export const Route = createFileRoute("/doctor")({
   head: () => ({
     meta: [
-      { title: "Dr. Ethan Carter — Lumière Dental Care" },
-      { name: "description", content: "Meet Dr. Ethan Carter, DDS — board-certified prosthodontist with 15+ years of advanced cosmetic and implant dentistry experience." },
-      { property: "og:title", content: "Dr. Ethan Carter — Lumière Dental Care" },
+      { title: "Dr.JOHN  —  Incisors Dental Care" },
+      { name: "description", content: "Meet Dr. JOHN , DDS — board-certified prosthodontist with 15+ years of advanced cosmetic and implant dentistry experience." },
+      { property: "og:title", content: "Dr. JOHN —  Incisors Dental Care" },
       { property: "og:description", content: "Board-certified prosthodontist with 15+ years of advanced experience." },
     ],
   }),
@@ -66,10 +66,10 @@ function DoctorPage() {
             </div>
 
             <div className="mt-8">
-              <h3 className="font-display text-2xl text-deep">About Dr. Carter</h3>
+              <h3 className="font-display text-2xl text-deep">About Dr.JOHN</h3>
               <p className="mt-3 text-muted-foreground leading-relaxed">{DOCTOR.bio}</p>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Beyond the clinic, Dr. Carter lectures internationally on minimally invasive
+                Beyond the clinic, Dr. JOHN lectures internationally on minimally invasive
                 cosmetic dentistry and mentors the next generation of dental professionals.
               </p>
             </div>
@@ -87,7 +87,7 @@ function DoctorPage() {
               to="/appointment"
               className="mt-10 inline-flex items-center gap-2 rounded-full bg-deep text-deep-foreground px-7 py-3.5 text-sm font-medium hover:shadow-glow transition-smooth"
             >
-              Book a consultation with Dr. Carter
+              Book a consultation with Dr. JOHN
             </Link>
           </div>
         </div>
