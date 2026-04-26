@@ -6,10 +6,10 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Lumière Dental Care" },
-      { name: "description", content: "Get in touch with Lumière Dental Care. Visit us at 120 Elm Avenue, San Francisco — call, email or message us anytime." },
-      { property: "og:title", content: "Contact Lumière Dental Care" },
-      { property: "og:description", content: "Phone, email, address and directions to our San Francisco clinic." },
+      { title: "Contact —  Incisors Dental Care" },
+      { name: "description", content: "Get in touch with  Incisors Dental Care. Visit us at Abc Street, Suite 4 India — call, email or message us anytime." },
+      { property: "og:title", content: "Contact  Incisors Dental Care" },
+      { property: "og:description", content: "Phone, email, address and directions to our India clinic." },
     ],
   }),
   component: ContactPage,
@@ -34,9 +34,9 @@ function ContactPage() {
         <div className="container-x grid lg:grid-cols-5 gap-10">
           <div className="lg:col-span-2 space-y-5">
             {[
-              { icon: MapPin, title: "Visit", value: "120 Elm Avenue, Suite 4\nSan Francisco, CA 94110" },
-              { icon: Phone, title: "Call", value: "(555) 123-4567", href: "tel:+15551234567" },
-              { icon: Mail, title: "Email", value: "hello@lumiere-dental.com", href: "mailto:hello@lumiere-dental.com" },
+              { icon: MapPin, title: "Visit", value: "Abc Street, Suite 4 India" },
+              { icon: Phone, title: "Call", value: "(555) 123-4567", href: "tel:+91xxxxxxxxx" },
+              { icon: Mail, title: "Email", value: "hello@ incisors-dental.com", href: "mailto:hello@ incisors-dental.com" },
               { icon: Clock, title: "Hours", value: "Mon–Fri · 8:00–18:00\nSat · 9:00–14:00" },
             ].map((item) => (
               <div key={item.title} className="rounded-3xl border border-border/60 bg-card p-6 flex gap-4">
