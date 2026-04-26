@@ -1,9 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// This file is unused — TanStack Start bootstraps via its Vite plugin.
+// Kept as a stub to prevent stale references from breaking the build.
+export {};
