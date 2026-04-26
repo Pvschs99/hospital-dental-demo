@@ -35,7 +35,7 @@ export const Route = createRootRoute({
       { title: "Lumière Dental Care — Premium Dentistry" },
       { name: "description", content: "Premium dental clinic offering gentle, modern care — implants, aligners, cosmetic dentistry and more." },
       { name: "author", content: "Lumière Dental" },
-      { property: "og:title", content: "Lumière Dental Care — Premium Dentistry" },
+      { property: "og:title", content: "Incisors Dental Care — Premium Dentistry" },
       { property: "og:description", content: "Premium dental clinic offering gentle, modern care — implants, aligners, cosmetic dentistry and more." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
