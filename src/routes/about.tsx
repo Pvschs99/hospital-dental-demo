@@ -8,9 +8,9 @@ import { Heart, Eye, Compass } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Lumière Dental Care" },
-      { name: "description", content: "Discover Lumière Dental Care — a calm, modern clinic led by Dr. Ethan Carter, dedicated to gentle, premium dentistry." },
-      { property: "og:title", content: "About Lumière Dental Care" },
+      { title: "About — Incisors Dental Care" },
+      { name: "description", content: "Discover Lumière Dental Care — a calm, modern clinic led by Dr. JOHN, dedicated to gentle, premium dentistry." },
+      { property: "og:title", content: "About Incisors Dental Care" },
       { property: "og:description", content: "Premium dental care with a thoughtful, patient-first approach." },
     ],
   }),
@@ -25,7 +25,7 @@ function AboutPage() {
           <SectionHeader
             eyebrow="About us"
             title="A calmer, more thoughtful clinic"
-            description="Lumière Dental Care was founded with a single belief — that exceptional dentistry should feel as good as it looks. Every detail of our space, our team and our process is designed around your comfort."
+            description="Incisors Dental Care was founded with a single belief — that exceptional dentistry should feel as good as it looks. Every detail of our space, our team and our process is designed around your comfort."
           />
         </div>
       </section>
@@ -35,7 +35,7 @@ function AboutPage() {
           <div className="lg:col-span-6">
             <img
               src={clinicInterior}
-              alt="Lumière dental clinic interior"
+              alt="Incisors dental clinic interior"
               width={1536}
               height={1024}
               loading="lazy"
