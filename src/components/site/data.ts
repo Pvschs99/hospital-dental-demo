@@ -85,16 +85,16 @@ export const REVIEWS = [
 ] as const;
 
 export const CLINIC = {
-  name: "Lumière Dental Care",
+  name: " Incisors Dental Care",
   // E.164 format used for tel: and wa.me links
-  phoneE164: "+15551234567",
-  phoneDisplay: "(555) 123-4567",
+  phoneE164: "+91 xxxxxxxxxxxx",
+  phoneDisplay: "+91 xxxxxxxxxxxx",
   whatsappMessage:
     "Hi Lumière Dental Care, I'd like to book an appointment.",
 } as const;
 
 export const DOCTOR = {
-  name: "Dr. Ethan Carter",
+  name: "Dr. JOHN",
   qualification: "DDS, MSc Prosthodontics",
   experience: "15+ years of experience",
   bio: "Dr. Carter blends evidence-based dentistry with a deep commitment to patient comfort. A graduate of UCSF with advanced training in cosmetic and implant dentistry, he leads Lumière with calm precision and a passion for craftsmanship.",
