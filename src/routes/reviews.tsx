@@ -6,9 +6,9 @@ import { REVIEWS } from "@/components/site/data";
 export const Route = createFileRoute("/reviews")({
   head: () => ({
     meta: [
-      { title: "Patient Reviews — Lumière Dental Care" },
-      { name: "description", content: "Read real reviews from Lumière Dental Care patients — 4.9/5 from 800+ Google reviews." },
-      { property: "og:title", content: "Patient Reviews — Lumière Dental Care" },
+      { title: "Patient Reviews —  Incisors Dental Care" },
+      { name: "description", content: "Read real reviews from  Incisors Dental Care patients — 4.9/5 from 800+ Google reviews." },
+      { property: "og:title", content: "Patient Reviews —  Incisors Dental Care" },
       { property: "og:description", content: "Real words from patients who chose Lumière for their dental care." },
     ],
   }),
