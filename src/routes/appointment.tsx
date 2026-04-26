@@ -6,10 +6,10 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 export const Route = createFileRoute("/appointment")({
   head: () => ({
     meta: [
-      { title: "Book Appointment — Lumière Dental Care" },
+      { title: "Book Appointment —  Incisors Dental Care" },
       { name: "description", content: "Book your dental appointment online — quick, easy and confidential. We'll confirm within hours." },
-      { property: "og:title", content: "Book an Appointment — Lumière Dental Care" },
-      { property: "og:description", content: "Reserve your spot at Lumière Dental Care." },
+      { property: "og:title", content: "Book an Appointment —  Incisors Dental Care" },
+      { property: "og:description", content: "Reserve your spot at  Incisors Dental Care." },
     ],
   }),
   component: AppointmentPage,
@@ -56,11 +56,11 @@ function AppointmentPage() {
               <h4 className="font-display text-lg text-deep">Prefer to call?</h4>
               <p className="mt-1 text-sm text-muted-foreground">We're here Mon–Sat.</p>
               <a
-                href="tel:+15551234567"
+                href="tel:+91xxxxxxxxx"
                 className="mt-4 inline-flex items-center gap-2 text-deep font-medium"
               >
                 <Phone className="h-4 w-4" />
-                (555) 123-4567
+                +91xxxxxxxxx
               </a>
             </div>
           </aside>
@@ -90,8 +90,8 @@ function AppointmentPage() {
                 }}
                 className="rounded-3xl bg-card border border-border/60 p-8 md:p-10 shadow-card space-y-5"
               >
-                <Field icon={User} label="Full name" type="text" placeholder="Jane Doe" required />
-                <Field icon={Phone} label="Phone number" type="tel" placeholder="(555) 000-0000" required />
+                <Field icon={User} label="Full name" type="text" placeholder="JOHN" required />
+                <Field icon={Phone} label="Phone number" type="tel" placeholder="+91xxxxxxxxx" required />
                 <div className="grid sm:grid-cols-2 gap-5">
                   <Field icon={Calendar} label="Preferred date" type="date" required />
                   <Field icon={Clock} label="Preferred time" type="time" required />
