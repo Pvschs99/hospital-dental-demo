@@ -1,12 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dental Clinic</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Incisors Dental Care — Your Smile, Our Priority</title>
+  <meta name="description" content="Advanced dental care with experienced professionals. Book a comfortable, premium dental experience today." />
+  <meta property="og:title" content="Incisors Dental Care — Your Smile, Our Priority" />
+  <meta property="og:description" content="Advanced dental care with experienced professionals. Book a comfortable, premium dental experience today." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="container-x inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5c-2.5-2-6.5-1.5-7 2 -.4 3 .8 6 1.7 8.8.6 1.9 1.6 4 2.9 4 1.2 0 1.4-2 2.4-2s1.2 2 2.4 2c1.3 0 2.3-2.1 2.9-4 .9-2.8 2.1-5.8 1.7-8.8 -.5-3.5-4.5-4-7-2Z"/></svg></span>
+      <span class="brand-text">
+        <span class="brand-name">Incisors</span>
+        <span class="brand-sub">Dental Care</span>
+      </span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a><a href="about.html" class="">About</a><a href="services.html" class="">Services</a><a href="doctor.html" class="">Doctor</a><a href="reviews.html" class="">Reviews</a><a href="contact.html" class="">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+91xxxxxxxxxx" class="phone-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+91 xxxxx xxxxx</a>
+      <a href="appointment.html" class="btn btn-primary btn-sm">Book Appointment</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span id="menuOpen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg></span>
+      <span id="menuClose" class="hidden"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <nav class="container-x">
+      <a href="index.html" class="active">Home</a><a href="about.html" class="">About</a><a href="services.html" class="">Services</a><a href="doctor.html" class="">Doctor</a><a href="reviews.html" class="">Reviews</a><a href="contact.html" class="">Contact</a>
+      <a href="appointment.html" class="btn btn-primary" style="margin-top:0.5rem;justify-content:center;">Book Appointment</a>
+    </nav>
+  </div>
+</header>
+  <main>
+    
+<section class="hero bg-hero">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="container-x grid">
+    <div class="fade-up">
+      <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg> Trusted by 5,000+ patients</span>
+      <h1>Your Smile,<span class="accent">Our Priority.</span></h1>
+      <p class="lead">Advanced dental care with experienced professionals — delivered in a calm, elegant clinic designed around your comfort.</p>
+      <div class="ctas">
+        <a href="appointment.html" class="btn btn-primary">Book Appointment <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        <a href="tel:+91xxxxxxxxxx" class="btn btn-outline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call Now</a>
+      </div>
+      <div class="rating">
+        <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <span class="rating-text"><strong>4.9/5</strong> from 800+ Google reviews</span>
+      </div>
+    </div>
+    <div class="hero-img-wrap fade-up" style="animation-delay:.15s">
+      <div class="hero-img">
+        <img src="assets/hero-smile.jpg" alt="Patient smiling confidently after dental treatment" width="1536" height="1280">
+      </div>
+      <div class="float-card float-card-1">
+        <div class="ico ico-mist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div><div class="label">Certified by</div><div class="value">ADA &amp; AACD</div></div>
+      </div>
+      <div class="float-card float-card-2">
+        <div class="ico ico-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg></div>
+        <div><div class="label">Pain-free</div><div class="value">Sedation available</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div class="container-x grid">
+    <div><div class="v">5,000+</div><div class="l">Happy patients</div></div><div><div class="v">15+</div><div class="l">Years experience</div></div><div><div class="v">98%</div><div class="l">5-star reviews</div></div><div><div class="v">100%</div><div class="l">Sterile environment</div></div>
+  </div>
+</section>
+
+<section class="section bg-soft">
+  <div class="container-x">
+    
+  <div class="section-header">
+    <span class="eyebrow"><span class="dot"></span>What we offer</span>
+    <h2>Dentistry, beautifully delivered</h2>
+    <p>From routine care to full smile design — every treatment is gentle, precise and tailored to you.</p>
+  </div>
+    <div class="grid-cards">
+      
+  <article class="service-card">
+    <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></div>
+    <h3>Teeth Cleaning</h3>
+    <p>Gentle professional cleaning to remove plaque and brighten your natural smile.</p>
+    
+  </article>
+  <article class="service-card">
+    <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.5.5 0 0 1-.96 0L9.24 2.18a.5.5 0 0 0-.96 0l-2.35 8.36A2 2 0 0 1 4 12H2"/></svg></div>
+    <h3>Root Canal Treatment</h3>
+    <p>Pain-free, precision endodontic care that preserves your natural tooth.</p>
+    
+  </article>
+  <article class="service-card">
+    <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><circle cx="12" cy="5" r="3"/></svg></div>
+    <h3>Dental Implants</h3>
+    <p>Permanent, lifelike replacements crafted for comfort, function and beauty.</p>
+    
+  </article>
+  <article class="service-card">
+    <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg></div>
+    <h3>Braces & Aligners</h3>
+    <p>Modern clear aligners and braces for a perfectly aligned, confident smile.</p>
+    
+  </article>
+  <article class="service-card">
+    <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></div>
+    <h3>Cosmetic Dentistry</h3>
+    <p>Veneers, whitening and smile design tailored uniquely to your features.</p>
+    
+  </article>
+  <article class="service-card">
+    <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div>
+    <h3>Preventive Care</h3>
+    <p>Holistic check-ups and education to keep dental issues at bay for life.</p>
+    
+  </article>
+    </div>
+    <div style="margin-top:3rem;text-align:center;">
+      <a href="services.html" class="text-link">View all services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container-x two-col">
+    <div class="img-frame">
+      <img src="assets/clinic-interior.jpg" alt="Modern minimalist dental clinic interior with teal accents" loading="lazy">
+    </div>
+    <div>
+      
+  <div class="section-header left">
+    <span class="eyebrow"><span class="dot"></span>Why choose us</span>
+    <h2>A calmer, more thoughtful kind of dentistry</h2>
+    <p>We've reimagined the dental visit — with modern technology, a soothing environment and care that treats you as a whole person.</p>
+  </div>
+      <div class="feature-list">
+        
+          <div class="feature">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0 0-14h-1"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg></div>
+            <div><h4>Modern equipment</h4><p>Digital scanners, 3D imaging and same-day crowns for precise, efficient treatment.</p></div>
+          </div>
+          <div class="feature">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg></div>
+            <div><h4>Gentle patient care</h4><p>Calming spaces, transparent communication and sedation options when you need them.</p></div>
+          </div>
+          <div class="feature">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div>
+            <div><h4>Experienced team</h4><p>Board-certified specialists with 15+ years of advanced training and craftsmanship.</p></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-soft">
+  <div class="container-x two-col-rev" style="display:grid;gap:3.5rem;align-items:center;">
+    <div style="order:2;">
+      
+  <div class="section-header left">
+    <span class="eyebrow"><span class="dot"></span>Meet your dentist</span>
+    <h2>Dr. JOHN</h2>
+    <p>Dr. JOHN blends evidence-based dentistry with a deep commitment to patient comfort. A graduate of UCSF with advanced training in cosmetic and implant dentistry, he leads Incisors with calm precision and a passion for craftsmanship.</p>
+  </div>
+      <div class="facts">
+        <div><span class="label">Qualification —</span> DDS, MSc Prosthodontics</div>
+        <div><span class="label">Experience —</span> 15+ years of experience</div>
+      </div>
+      <ul class="bullet-list">
+        <li><span class="dot"></span>Member, American Academy of Cosmetic Dentistry</li><li><span class="dot"></span>Certified Invisalign® Diamond Provider</li><li><span class="dot"></span>Advanced Implantology Fellow</li>
+      </ul>
+      <a href="doctor.html" class="btn btn-primary" style="margin-top:2rem;">View full profile <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    </div>
+    <div style="order:1;">
+      <div class="doc-img-wrap">
+        <div class="echo"></div>
+        <div class="doc-img">
+          <img src="assets/doctor-portrait.jpg" alt="Dr. JOHN, DDS, MSc Prosthodontics" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container-x">
+    
+  <div class="section-header">
+    <span class="eyebrow"><span class="dot"></span>Patient stories</span>
+    <h2>Trusted by smiles like yours</h2>
+    <p>Real words from patients who chose Incisors for their dental care.</p>
+  </div>
+    <div class="grid-cards">
+  <article class="review-card">
+    <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+    <p class="text">"The most calming dental experience I've ever had. Dr. JOHN explained everything and the result is genuinely life changing."</p>
+    <div class="meta">
+      <div class="name">Olivia Martinez</div>
+      <div class="role">Patient since 2021</div>
+    </div>
+  </article>
+  <article class="review-card">
+    <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+    <p class="text">"From the moment I walked in, the clinic felt more like a luxury spa. Painless implant procedure and a flawless result."</p>
+    <div class="meta">
+      <div class="name">James Whitaker</div>
+      <div class="role">Implant patient</div>
+    </div>
+  </article>
+  <article class="review-card">
+    <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+    <p class="text">"I finished my aligner journey here and could not be happier. The team is meticulous, warm and incredibly professional."</p>
+    <div class="meta">
+      <div class="name">Priya Shah</div>
+      <div class="role">Aligner journey</div>
+    </div>
+  </article></div>
+    <div class="center-actions">
+      <a href="https://google.com" target="_blank" rel="noreferrer" class="btn btn-primary">View More Reviews on Google</a>
+      <a href="https://google.com" target="_blank" rel="noreferrer" class="btn btn-outline">Write a Review</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm">
+  <div class="container-x">
+    <div class="cta-banner">
+      <div class="blob"></div>
+      <div class="grid">
+        <div>
+          <h3>Ready for a brighter, healthier smile?</h3>
+          <p>Book your consultation today — we'll design a treatment plan as unique as you are.</p>
+        </div>
+        <div class="actions">
+          <a href="appointment.html" class="btn btn-light">Book Appointment</a>
+          <a href="tel:+91xxxxxxxxxx" class="btn btn-ghost-light">Call +91 xxxxx xxxxx</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-bottom:2rem;">
+  <div class="container-x">
+    
+  <div class="section-header">
+    <span class="eyebrow"><span class="dot"></span>Visit us</span>
+    <h2>Find your way to Incisors</h2>
+    <p>Conveniently located in the heart of the city.</p>
+  </div>
+    <div class="location-grid">
+      <div class="info-card">
+        <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><div><div class="label">Address</div><div class="value">Abc Street, Suite 4<br>India</div></div></div>
+        <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><div><div class="label">Hours</div><div class="value" style="font-size:.875rem;">Mon–Fri · 8:00 — 18:00<br>Sat · 9:00 — 14:00<br>Sun · Closed</div></div></div>
+        <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><div><div class="label">Phone</div><a href="tel:+91xxxxxxxxxx" class="value" style="display:block;">+91 xxxxx xxxxx</a></div></div>
+      </div>
+      <div class="map-frame">
+        <iframe title="Clinic location" src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4194%2C37.7549%2C-122.4094%2C37.7649&layer=mapnik&marker=37.7599%2C-122.4144" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+  
+<footer class="site-footer">
+  <div class="container-x grid">
+    <div>
+      <div class="brand">
+        <span class="footer-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5c-2.5-2-6.5-1.5-7 2 -.4 3 .8 6 1.7 8.8.6 1.9 1.6 4 2.9 4 1.2 0 1.4-2 2.4-2s1.2 2 2.4 2c1.3 0 2.3-2.1 2.9-4 .9-2.8 2.1-5.8 1.7-8.8 -.5-3.5-4.5-4-7-2Z"/></svg></span>
+        <span class="brand-text"><span class="brand-name">Incisors Dental</span></span>
+      </div>
+      <p class="lead">Premium, gentle dental care designed around you. Confidence in every smile.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctor.html">Our Doctor</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="appointment.html">Book Appointment</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li>Teeth Cleaning</li>
+        <li>Root Canal Treatment</li>
+        <li>Dental Implants</li>
+        <li>Braces &amp; Aligners</li>
+        <li>Cosmetic Dentistry</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="contact-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><span>Abc Street, Suite 4<br>India</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+91xxxxxxxxxx">+91 xxxxx xxxxx</a></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><a href="mailto:hello@incisors-dental.com">hello@incisors-dental.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container-x inner">
+      <span>© <span id="year"></span> Incisors Dental Care. All rights reserved.</span>
+      <span>Crafted with care for healthier smiles.</span>
+    </div>
+  </div>
+</footer>
+  
+<div class="floating-actions">
+  <a href="https://wa.me/91?text=Hi%20Incisors%20Dental%20Care%2C%20I'd%20like%20to%20book%20an%20appointment." target="_blank" rel="noreferrer" class="fab fab-wa" aria-label="WhatsApp Incisors Dental Care">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+    <span class="label-full">WhatsApp +91 xxxxx xxxxx</span>
+    <span class="label-short">WhatsApp</span>
+  </a>
+  <a href="tel:+91xxxxxxxxxx" class="fab fab-call" aria-label="Call Incisors Dental Care">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span class="label-full">+91 xxxxx xxxxx</span>
+    <span class="label-short">Call</span>
+  </a>
+</div>
+  
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  (function(){
+    var btn = document.getElementById('menuToggle');
+    var nav = document.getElementById('mobileNav');
+    var openIco = document.getElementById('menuOpen');
+    var closeIco = document.getElementById('menuClose');
+    btn.addEventListener('click', function(){
+      var isOpen = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      openIco.classList.toggle('hidden', isOpen);
+      closeIco.classList.toggle('hidden', !isOpen);
+    });
+  })();
+</script>
+  
+</body>
 </html>
