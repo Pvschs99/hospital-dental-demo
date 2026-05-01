@@ -23,19 +23,3 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-## Deploy to GitHub Pages
-
-1. Push this repository to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Source**, select branch `main` (or `master`) and folder `/ (root)`.
-4. Save. Your site will be live at `https://<username>.github.io/<repo>/` within a minute.
-
-`index.html` is the entry point — GitHub Pages serves it automatically.
-
-## Update phone / contact details
-
-Search and replace across the `.html` files:
-- `+91xxxxxxxxxx` — phone number (E.164 format, used in `tel:` and `wa.me` links)
-- `+91 xxxxx xxxxx` — phone number (display format)
-- `hello@incisors-dental.com` — email address
-- `Abc Street, Suite 4` — address line
